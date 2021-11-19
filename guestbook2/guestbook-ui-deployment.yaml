@@ -14,7 +14,7 @@ spec:
         app: otherbook
     spec:
       containers:
-      - image: nginx
+      - image: strm/helloworld-http
         name: otherbook
         ports:
         - containerPort: 80
